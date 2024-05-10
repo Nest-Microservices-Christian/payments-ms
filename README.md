@@ -20,6 +20,14 @@ Microservice for managing payments with Stripe. Fernando Herrera's course projec
 - Ensure you have a Stripe account. Sign up [here](https://stripe.com).
 - Get your Stripe API keys from the dashboard and add them to your `.env` file.
 
+## Production
+
+Execute the following command to build the project:
+
+```
+docker build -f dockerfile.prod -t payments-ms .
+```
+
 ## Technologies Used
 
 - [NestJS](https://nestjs.com/) for the backend framework.
